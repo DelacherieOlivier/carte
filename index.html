@@ -21,10 +21,14 @@ var lat = 48.852969;
 var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
   "Paris": { "lat": 48.852969, "lon": 2.349903 },
+<<<<<<< HEAD
   "Brest": { "lat": 48.383, "lon": -4.500 },
   "Quimper": { "lat": 48.000, "lon": -4.100 },
   "Bayonne": { "lat": 43.500, "lon": -1.467 },
 	"Amiens": { "lat":49.900, "lon": 2.300}
+=======
+  "New York": { "lat": 40.730610, "lon": -73.935242},
+>>>>>>> ce7badb060727abd8fda014b5a60b9d7f3289167
 };
 
 window.onload = function(){
@@ -47,9 +51,8 @@ window.onload = function(){
 		</div>
     <div class="columns">
 
-      <div id="THIERNO">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Thierno" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -65,11 +68,27 @@ window.onload = function(){
           </div>
         </div>
       </div>
-    </div>
 
-      <div id="VALENTYN">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Valentyn" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">New York</div>
+            <div class="card-subtitle text-gray"><i>The Big Apple</i></div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/1_times_square_night_2013.jpg" width="200px;" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            <p><strong>The Big Apple</strong> est la plus grande ville américaine, capitale mondiale, elle fait partie, avec Paris et Londres, des villes les plus influentes du monde. <br><i>Par Valentyn Giroutx.</i></p>            
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Bryan" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -85,11 +104,27 @@ window.onload = function(){
           </div>
         </div>
       </div>
-    </div>
 
-      <div id="BRYAN">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Maxence" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Londres</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://www.clc.fr/medias/_cache/produits/394/imagePrincipale/320_200/vue-pont-de-londres.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Londres, la capitale de l'Angleterre et du Royaume-Uni, est une ville moderne dont l'histoire remonte à l'époque romaine. En son centre se dressent l'imposant Parlement, l'emblématique Big Ben et l'abbaye de Westminster, lieu de couronnement des monarques britanniques. De l'autre côté de la Tamise, le London Eye, la grande roue, offre une vue panoramique sur le South Bank Center, et toute la ville.
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Olivier" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -105,11 +140,30 @@ window.onload = function(){
           </div>
         </div>
       </div>
-    </div>
 
-      <div id="MAXENCE">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+
+        <div id="ville_Pekin" class="card bg-dark m-2">
+
+        <div id="ville_Louise_D" class="card bg-dark m-2">
+          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
+                 la ville Afonctionne -->
+          <div class="card-header">
+            <div class="card-title h5">Pékin</div>
+            <div class="card-subtitle text-gray">Capitale</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://www.vanityfair.fr/uploads/images/thumbs/201820/96/vf_pekin_4443.jpeg_north_1323x718_transparent.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Beijing (ou Pékin), l’immense capitale chinoise, est empreinte d’une histoire de plus de 3 millénaires. Elle est connue aussi bien pour son architecture moderne que pour ses sites anciens tels que le grand palais impérial de la Cité interdite, dont la construction date des dynasties Ming et Qing. Non loin de cette cité impériale se trouve l’immense place piétonne Tian Anmen : elle abrite le mausolée de Mao Zedong et le musée national de Chine, où une vaste collection de vestiges culturels est exposée.
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Ines" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -125,11 +179,9 @@ window.onload = function(){
           </div>
         </div>
       </div>
-    </div>
 
-      <div id="OLIVIER">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Estelle" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -144,72 +196,12 @@ window.onload = function(){
             Insérez description...
           </div>
         </div>
-      </div>
     </div>
 
-      <div id="LOUISE_D">
-      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
-          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
-                 la ville Afonctionne -->
-          <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
-          </div>
-          <div class="card-image">
-            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
-          </div>
-          <div class="card-body bg-secondary text-dark">
-            Insérez description...
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <div id="INES">
-      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
-          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
-                 la ville Afonctionne -->
-          <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
-          </div>
-          <div class="card-image">
-            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
-          </div>
-          <div class="card-body bg-secondary text-dark">
-            Insérez description...
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <div id="ESTELLE">
-      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
-          <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
-                 la ville Afonctionne -->
-          <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
-          </div>
-          <div class="card-image">
-            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
-          </div>
-          <div class="card-body bg-secondary text-dark">
-            Insérez description...
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <div id="AMBRE">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Amiens" class="card bg-dark m-2">
+        <div id="ville_Ambre" class="card bg-dark m-2">
+
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -225,11 +217,9 @@ window.onload = function(){
           </div>
         </div>
       </div>
-    </div>
 
-      <div id="LOUISE_S">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Louise_S" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -245,16 +235,14 @@ window.onload = function(){
           </div>
         </div>
       </div>
-    </div>
 
-      <div id="ANTOINE">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Paris" class="card bg-dark m-2">
+        <div id="ville_Antoine" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Arras</div>
+            <div class="card-subtitle text-gray">Ma ville <3</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
@@ -265,9 +253,9 @@ window.onload = function(){
           </div>
         </div>
       </div>
-    </div>
 
     </div>
+
 
     <p class="footer bg-secondary text-center">
   Site réalisé avec <a href="https://picturepan2.github.io/spectre/">Spectre CSS.</a>
