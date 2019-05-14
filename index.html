@@ -20,6 +20,7 @@
 var lat = 48.852969;
 var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
+
   "Arras": { "lat": 50.2384, "lon": 2.7795},
     "Lille": { "lat": 50.2384, "lon": 2.7795},
       "Londres": { "lat": 51.50, "lon": -0.12},
@@ -29,8 +30,9 @@ var villes = { // seules les villes ajoutées dans ce tableau sont affichées su
               "Bordeaux": { "lat": 50.2384, "lon": 2.7795},
                 "Amiens": { "lat": 50.2384, "lon": 2.7795},
                   "NY": { "lat": 50.2384, "lon": 2.7795},
-                    "Lyon": { "lat": 50.2384, "lon": 2.7795},
+                    "Lyon": { "lat": 45.75, "lon": 4.85 },
                       "Paris": { "lat": 50.2384, "lon": 2.7795}
+
 };
 
 window.onload = function(){
@@ -130,15 +132,15 @@ window.onload = function(){
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">LYON</div>
+            <div class="card-subtitle text-gray">Ville</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://www.lyon.fr/sites/lyonfr/files/carte-d%27didentit%C3%A9.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Lyon, ville française de la région historique Rhône-Alpes, se trouve à la jonction du Rhône et de la Saône. Son centre témoigne de 2 000 ans d'histoire, avec son amphithéâtre romain des Trois Gaules, l'architecture médiévale et Renaissance du Vieux Lyon et la modernité du quartier de la Confluence sur la               Presqu'île. Les Traboules, passages couverts entre les immeubles, relient le Vieux Lyon à la colline de La Croix-Rousse.
           </div>
         </div>
       </div>
